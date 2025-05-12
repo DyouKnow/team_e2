@@ -1,0 +1,15 @@
+material Gazebo/TrackMaterial
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ../textures/track.png
+        scale 1 1
+      }
+    }
+  }
+}
+
