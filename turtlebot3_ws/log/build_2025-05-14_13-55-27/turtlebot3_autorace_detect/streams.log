@@ -1,0 +1,24 @@
+[1.922s] Invoking command in '/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_detect': PYTHONPATH=/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey/turtlebot3_ws/build/turtlebot3_autorace_detect/build --no-deps symlink_data
+[2.558s] running develop
+[2.912s] running egg_info
+[2.913s] writing turtlebot3_autorace_detect.egg-info/PKG-INFO
+[2.913s] writing dependency_links to turtlebot3_autorace_detect.egg-info/dependency_links.txt
+[2.913s] writing entry points to turtlebot3_autorace_detect.egg-info/entry_points.txt
+[2.913s] writing requirements to turtlebot3_autorace_detect.egg-info/requires.txt
+[2.913s] writing top-level names to turtlebot3_autorace_detect.egg-info/top_level.txt
+[2.916s] reading manifest file 'turtlebot3_autorace_detect.egg-info/SOURCES.txt'
+[2.917s] writing manifest file 'turtlebot3_autorace_detect.egg-info/SOURCES.txt'
+[2.920s] running build_ext
+[2.920s] Creating /home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3-autorace-detect.egg-link (link to .)
+[2.921s] Installing detect_construction_sign script to /home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.921s] Installing detect_intersection_sign script to /home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.922s] Installing detect_lane script to /home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.922s] Installing detect_level_crossing script to /home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.922s] Installing detect_level_crossing_sign script to /home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.922s] Installing detect_parking_sign script to /home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.923s] Installing detect_traffic_light script to /home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.923s] Installing detect_tunnel_sign script to /home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.923s] 
+[2.923s] Installed /home/rokey/turtlebot3_ws/build/turtlebot3_autorace_detect
+[2.923s] running symlink_data
+[2.996s] Invoked command in '/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_detect' returned '0': PYTHONPATH=/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey/turtlebot3_ws/build/turtlebot3_autorace_detect/build --no-deps symlink_data
