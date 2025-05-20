@@ -1,0 +1,101 @@
+[5.270s] Invoking command in '/home/rokey-jw/rokeyracing_ws/src/turtlebot3_autorace_detect': PYTHONPATH=/home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_autorace_detect build --build-base /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build install --record /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/install.log --single-version-externally-managed install_data
+[5.896s] running egg_info
+[5.897s] creating ../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info
+[5.897s] writing ../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/PKG-INFO
+[5.898s] writing dependency_links to ../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/dependency_links.txt
+[5.898s] writing entry points to ../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/entry_points.txt
+[5.898s] writing requirements to ../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/requires.txt
+[5.899s] writing top-level names to ../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/top_level.txt
+[5.899s] writing manifest file '../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/SOURCES.txt'
+[5.903s] reading manifest file '../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/SOURCES.txt'
+[5.905s] writing manifest file '../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/SOURCES.txt'
+[5.906s] running build
+[5.906s] running build_py
+[5.906s] creating /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build
+[5.906s] creating /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib
+[5.906s] creating /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.907s] copying turtlebot3_autorace_detect/detect_intersection_sign.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.907s] copying turtlebot3_autorace_detect/detect_construction_sign.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.907s] copying turtlebot3_autorace_detect/my_detect_lane.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.913s] copying turtlebot3_autorace_detect/detect_parking_sign.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.914s] copying turtlebot3_autorace_detect/detect_traffic_light.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.914s] copying turtlebot3_autorace_detect/detect_level_crossing.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.914s] copying turtlebot3_autorace_detect/detect_traffic_light_org.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.915s] copying turtlebot3_autorace_detect/detect_lane_org.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.915s] copying turtlebot3_autorace_detect/detect_lane.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.915s] copying turtlebot3_autorace_detect/simple_detect_lane.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.916s] copying turtlebot3_autorace_detect/detect_level_crossing_sign.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.916s] copying turtlebot3_autorace_detect/__init__.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.916s] copying turtlebot3_autorace_detect/detect_tunnel_sign.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[5.917s] running install
+[5.918s] running install_lib
+[5.920s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.920s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_intersection_sign.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.920s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_construction_sign.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.920s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/my_detect_lane.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.921s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_parking_sign.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.921s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_traffic_light.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.921s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_level_crossing.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.921s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_traffic_light_org.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.922s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_lane_org.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.922s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_lane.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.922s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/simple_detect_lane.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.922s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_level_crossing_sign.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.923s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/__init__.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.923s] copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_tunnel_sign.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[5.925s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_intersection_sign.py to detect_intersection_sign.cpython-310.pyc
+[5.928s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_construction_sign.py to detect_construction_sign.cpython-310.pyc
+[5.931s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/my_detect_lane.py to my_detect_lane.cpython-310.pyc
+[5.937s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_parking_sign.py to detect_parking_sign.cpython-310.pyc
+[5.939s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_traffic_light.py to detect_traffic_light.cpython-310.pyc
+[5.943s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_level_crossing.py to detect_level_crossing.cpython-310.pyc
+[5.947s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_traffic_light_org.py to detect_traffic_light_org.cpython-310.pyc
+[5.952s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_lane_org.py to detect_lane_org.cpython-310.pyc
+[5.957s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_lane.py to detect_lane.cpython-310.pyc
+[5.962s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/simple_detect_lane.py to simple_detect_lane.cpython-310.pyc
+[5.968s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_level_crossing_sign.py to detect_level_crossing_sign.cpython-310.pyc
+[5.970s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/__init__.py to __init__.cpython-310.pyc
+[5.971s] byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_tunnel_sign.py to detect_tunnel_sign.cpython-310.pyc
+[5.973s] running install_data
+[5.973s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/ament_index
+[5.973s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/ament_index/resource_index
+[5.974s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/ament_index/resource_index/packages
+[5.974s] copying resource/turtlebot3_autorace_detect -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/ament_index/resource_index/packages
+[5.974s] copying package.xml -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect
+[5.974s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[5.975s] copying launch/simple_detect_lane.launch.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[5.975s] copying launch/my_detect_lane.launch.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[5.975s] copying launch/detect_level_crossing.launch.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[5.976s] copying launch/detect_traffic_light.launch.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[5.976s] copying launch/detect_lane.launch.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[5.976s] copying launch/detect_sign.launch.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[5.977s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param
+[5.977s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param/lane
+[5.977s] copying param/lane/lane.yaml -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param/lane
+[5.977s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param/level
+[5.978s] copying param/level/level.yaml -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param/level
+[5.978s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param/traffic_light
+[5.978s] copying param/traffic_light/traffic_light.yaml -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param/traffic_light
+[5.979s] creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[5.979s] copying image/intersection.png -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[5.980s] copying image/parking.png -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[5.980s] copying image/right.png -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[5.981s] copying image/tunnel.png -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[5.981s] copying image/stop.png -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[5.982s] copying image/construction.png -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[5.982s] copying image/left.png -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[5.983s] running install_egg_info
+[5.988s] Copying ../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect-1.2.1-py3.10.egg-info
+[5.990s] running install_scripts
+[6.043s] Installing detect_construction_sign script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.044s] Installing detect_intersection_sign script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.045s] Installing detect_lane script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.045s] Installing detect_level_crossing script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.046s] Installing detect_level_crossing_sign script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.046s] Installing detect_parking_sign script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.046s] Installing detect_traffic_light script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.046s] Installing detect_tunnel_sign script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.047s] Installing my_detect_lane script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.047s] Installing simple_detect_lane script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[6.048s] writing list of installed files to '/home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/install.log'
+[6.175s] Invoked command in '/home/rokey-jw/rokeyracing_ws/src/turtlebot3_autorace_detect' returned '0': PYTHONPATH=/home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_autorace_detect build --build-base /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/build install --record /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_detect/install.log --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+[0.028s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit
+[0.050s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.326s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.380s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.380s]   By not providing "Findmoveit_ros_planning_interface.cmake" in
+[0.380s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.380s]   configuration file provided by "moveit_ros_planning_interface", but CMake
+[0.381s]   did not find one.
+[0.381s] 
+[0.381s]   Could not find a package configuration file provided by
+[0.381s]   "moveit_ros_planning_interface" with any of the following names:
+[0.382s] 
+[0.382s]     moveit_ros_planning_interfaceConfig.cmake
+[0.382s]     moveit_ros_planning_interface-config.cmake
+[0.382s] 
+[0.382s]   Add the installation prefix of "moveit_ros_planning_interface" to
+[0.383s]   CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory
+[0.383s]   containing one of the above files.  If "moveit_ros_planning_interface"
+[0.383s]   provides a separate development package or SDK, be sure it has been
+[0.383s]   installed.
+[0.383s] 
+[0.384s] [0m
+[0.384s] -- Configuring incomplete, errors occurred!
+[0.384s] See also "/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit/CMakeFiles/CMakeOutput.log".
+[0.387s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit
