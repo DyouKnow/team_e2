@@ -1,0 +1,21 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::TrafficSignal::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:43:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kthis[m[K’
+   43 |   this->msg.mutable_material()
+      |                               [01;31m[K^[m[K
+      |                               [32m[K;[m[K
+   44 |   [32m[Kthis[m[K->mutable_script()
+      |   [32m[K~~~~[m[K                         
+gmake[2]: *** [CMakeFiles/traffic_signal_plugin.dir/build.make:76: CMakeFiles/traffic_signal_plugin.dir/src/traffic_signal_plugin.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/traffic_signal_plugin.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

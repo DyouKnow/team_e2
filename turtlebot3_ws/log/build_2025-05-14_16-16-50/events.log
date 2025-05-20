@@ -1,0 +1,391 @@
+[0.000000] (-) TimerEvent: {}
+[0.000753] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000831] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000849] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000864] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000878] (-) JobUnselected: {'identifier': 'turtlebot3_autorace'}
+[0.000892] (-) JobUnselected: {'identifier': 'turtlebot3_autorace_camera'}
+[0.000906] (-) JobUnselected: {'identifier': 'turtlebot3_autorace_detect'}
+[0.000919] (-) JobUnselected: {'identifier': 'turtlebot3_autorace_mission'}
+[0.000933] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000947] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000963] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000979] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000994] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001010] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001026] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001041] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001058] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.001077] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.009170] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.009984] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.010801] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rokey/turtlebot3_ws/build/turtlebot3_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/rokey/turtlebot3_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'rokey'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rokey/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/rokey/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/rokey'), ('OLDPWD', '/home/rokey'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '810'), ('SYSTEMD_EXEC_PID', '956'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '31269'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rokey/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rokey'), ('JOURNAL_STREAM', '8:10113'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rokey'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/rokey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rokey-550XBE-350XBE:@/tmp/.ICE-unix/919,unix/rokey-550XBE-350XBE:/tmp/.ICE-unix/919'), ('INVOCATION_ID', '05af32216c1a4c9fa76d03639244b027'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XXTG62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/home/rokey/turtlebot3_ws/install/turtlebot3:/home/rokey/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey/turtlebot3_ws/install/turtlebot3_node:/home/rokey/turtlebot3_ws/install/turtlebot3_navigation2:/home/rokey/turtlebot3_ws/install/turtlebot3_example:/home/rokey/turtlebot3_ws/install/turtlebot3_msgs:/home/rokey/turtlebot3_ws/install/turtlebot3_gazebo:/home/rokey/turtlebot3_ws/install/turtlebot3_description:/home/rokey/turtlebot3_ws/install/turtlebot3_cartographer:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_examples:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/rokey/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:982af485-aeb3-40b3-a0fc-ffbd17b325e5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rokey/turtlebot3_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger_cam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/rokey/{your_ws}/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rokey/turtlebot3_ws/build/turtlebot3_teleop:/home/rokey/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/build/turtlebot3_example:/home/rokey/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_mission:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_detect:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_camera:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/rokey/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rokey/turtlebot3_ws/install/turtlebot3:/home/rokey/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey/turtlebot3_ws/install/turtlebot3_node:/home/rokey/turtlebot3_ws/install/turtlebot3_navigation2:/home/rokey/turtlebot3_ws/install/turtlebot3_msgs:/home/rokey/turtlebot3_ws/install/turtlebot3_gazebo:/home/rokey/turtlebot3_ws/install/turtlebot3_description:/home/rokey/turtlebot3_ws/install/turtlebot3_cartographer:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_examples:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/rokey/turtlebot3_ws/install/dynamixel_sdk:/home/rokey/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey/turtlebot3_ws/install/turtlebot3_example:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble')]), 'shell': False}
+[0.099667] (-) TimerEvent: {}
+[0.104671] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target traffic_signal_plugin\x1b[0m\n'}
+[0.114984] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 14%] Built target turtlebot3_drive\n'}
+[0.130760] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 28%] Built target traffic_bar_plugin\n'}
+[0.130994] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 42%] Built target obstacle1\n'}
+[0.132513] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 57%] Built target traffic_light_plugin\n'}
+[0.136598] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 71%] Built target obstacle2\n'}
+[0.139061] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 85%] Built target obstacles\n'}
+[0.148430] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/traffic_signal_plugin.dir/src/traffic_signal_plugin.cpp.o\x1b[0m\n'}
+[0.199756] (-) TimerEvent: {}
+[0.300065] (-) TimerEvent: {}
+[0.400412] (-) TimerEvent: {}
+[0.500712] (-) TimerEvent: {}
+[0.600987] (-) TimerEvent: {}
+[0.701326] (-) TimerEvent: {}
+[0.801647] (-) TimerEvent: {}
+[0.901951] (-) TimerEvent: {}
+[1.002369] (-) TimerEvent: {}
+[1.102683] (-) TimerEvent: {}
+[1.203019] (-) TimerEvent: {}
+[1.303367] (-) TimerEvent: {}
+[1.403673] (-) TimerEvent: {}
+[1.504017] (-) TimerEvent: {}
+[1.604386] (-) TimerEvent: {}
+[1.704757] (-) TimerEvent: {}
+[1.805226] (-) TimerEvent: {}
+[1.905565] (-) TimerEvent: {}
+[2.005944] (-) TimerEvent: {}
+[2.106264] (-) TimerEvent: {}
+[2.206643] (-) TimerEvent: {}
+[2.306989] (-) TimerEvent: {}
+[2.407366] (-) TimerEvent: {}
+[2.507705] (-) TimerEvent: {}
+[2.608017] (-) TimerEvent: {}
+[2.708375] (-) TimerEvent: {}
+[2.808702] (-) TimerEvent: {}
+[2.909058] (-) TimerEvent: {}
+[3.009419] (-) TimerEvent: {}
+[3.109709] (-) TimerEvent: {}
+[3.210032] (-) TimerEvent: {}
+[3.310327] (-) TimerEvent: {}
+[3.410696] (-) TimerEvent: {}
+[3.511021] (-) TimerEvent: {}
+[3.611348] (-) TimerEvent: {}
+[3.711660] (-) TimerEvent: {}
+[3.811961] (-) TimerEvent: {}
+[3.912243] (-) TimerEvent: {}
+[4.012574] (-) TimerEvent: {}
+[4.112925] (-) TimerEvent: {}
+[4.213244] (-) TimerEvent: {}
+[4.313603] (-) TimerEvent: {}
+[4.413914] (-) TimerEvent: {}
+[4.514226] (-) TimerEvent: {}
+[4.614600] (-) TimerEvent: {}
+[4.714897] (-) TimerEvent: {}
+[4.815299] (-) TimerEvent: {}
+[4.915689] (-) TimerEvent: {}
+[5.015985] (-) TimerEvent: {}
+[5.116358] (-) TimerEvent: {}
+[5.216668] (-) TimerEvent: {}
+[5.316979] (-) TimerEvent: {}
+[5.417334] (-) TimerEvent: {}
+[5.517725] (-) TimerEvent: {}
+[5.618082] (-) TimerEvent: {}
+[5.718376] (-) TimerEvent: {}
+[5.818660] (-) TimerEvent: {}
+[5.919033] (-) TimerEvent: {}
+[6.019344] (-) TimerEvent: {}
+[6.119697] (-) TimerEvent: {}
+[6.220105] (-) TimerEvent: {}
+[6.320584] (-) TimerEvent: {}
+[6.420978] (-) TimerEvent: {}
+[6.521301] (-) TimerEvent: {}
+[6.621651] (-) TimerEvent: {}
+[6.721949] (-) TimerEvent: {}
+[6.822274] (-) TimerEvent: {}
+[6.922604] (-) TimerEvent: {}
+[7.022961] (-) TimerEvent: {}
+[7.123257] (-) TimerEvent: {}
+[7.223610] (-) TimerEvent: {}
+[7.323912] (-) TimerEvent: {}
+[7.424272] (-) TimerEvent: {}
+[7.524691] (-) TimerEvent: {}
+[7.625215] (-) TimerEvent: {}
+[7.725529] (-) TimerEvent: {}
+[7.825865] (-) TimerEvent: {}
+[7.926213] (-) TimerEvent: {}
+[8.026541] (-) TimerEvent: {}
+[8.126831] (-) TimerEvent: {}
+[8.227204] (-) TimerEvent: {}
+[8.327531] (-) TimerEvent: {}
+[8.427829] (-) TimerEvent: {}
+[8.528158] (-) TimerEvent: {}
+[8.628464] (-) TimerEvent: {}
+[8.728767] (-) TimerEvent: {}
+[8.829089] (-) TimerEvent: {}
+[8.929402] (-) TimerEvent: {}
+[9.029728] (-) TimerEvent: {}
+[9.130065] (-) TimerEvent: {}
+[9.230374] (-) TimerEvent: {}
+[9.330688] (-) TimerEvent: {}
+[9.431076] (-) TimerEvent: {}
+[9.531451] (-) TimerEvent: {}
+[9.631796] (-) TimerEvent: {}
+[9.732165] (-) TimerEvent: {}
+[9.832540] (-) TimerEvent: {}
+[9.932899] (-) TimerEvent: {}
+[10.033296] (-) TimerEvent: {}
+[10.133685] (-) TimerEvent: {}
+[10.234108] (-) TimerEvent: {}
+[10.334425] (-) TimerEvent: {}
+[10.434742] (-) TimerEvent: {}
+[10.535068] (-) TimerEvent: {}
+[10.635438] (-) TimerEvent: {}
+[10.735825] (-) TimerEvent: {}
+[10.836164] (-) TimerEvent: {}
+[10.936497] (-) TimerEvent: {}
+[11.036806] (-) TimerEvent: {}
+[11.137144] (-) TimerEvent: {}
+[11.237561] (-) TimerEvent: {}
+[11.337919] (-) TimerEvent: {}
+[11.438227] (-) TimerEvent: {}
+[11.538603] (-) TimerEvent: {}
+[11.638926] (-) TimerEvent: {}
+[11.739280] (-) TimerEvent: {}
+[11.839616] (-) TimerEvent: {}
+[11.939943] (-) TimerEvent: {}
+[12.040301] (-) TimerEvent: {}
+[12.140639] (-) TimerEvent: {}
+[12.227394] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtraffic_signal_plugin.so\x1b[0m\n'}
+[12.240724] (-) TimerEvent: {}
+[12.341040] (-) TimerEvent: {}
+[12.441406] (-) TimerEvent: {}
+[12.541827] (-) TimerEvent: {}
+[12.571076] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target traffic_signal_plugin\n'}
+[12.583576] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[12.584528] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[12.594077] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rokey/turtlebot3_ws/build/turtlebot3_gazebo'], 'cwd': '/home/rokey/turtlebot3_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'rokey'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rokey/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/rokey/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/rokey'), ('OLDPWD', '/home/rokey'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '810'), ('SYSTEMD_EXEC_PID', '956'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '31269'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rokey/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rokey'), ('JOURNAL_STREAM', '8:10113'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rokey'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/rokey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rokey-550XBE-350XBE:@/tmp/.ICE-unix/919,unix/rokey-550XBE-350XBE:/tmp/.ICE-unix/919'), ('INVOCATION_ID', '05af32216c1a4c9fa76d03639244b027'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XXTG62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/home/rokey/turtlebot3_ws/install/turtlebot3:/home/rokey/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey/turtlebot3_ws/install/turtlebot3_node:/home/rokey/turtlebot3_ws/install/turtlebot3_navigation2:/home/rokey/turtlebot3_ws/install/turtlebot3_example:/home/rokey/turtlebot3_ws/install/turtlebot3_msgs:/home/rokey/turtlebot3_ws/install/turtlebot3_gazebo:/home/rokey/turtlebot3_ws/install/turtlebot3_description:/home/rokey/turtlebot3_ws/install/turtlebot3_cartographer:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_examples:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/rokey/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:982af485-aeb3-40b3-a0fc-ffbd17b325e5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rokey/turtlebot3_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger_cam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/rokey/{your_ws}/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rokey/turtlebot3_ws/build/turtlebot3_teleop:/home/rokey/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/build/turtlebot3_example:/home/rokey/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_mission:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_detect:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/build/turtlebot3_autorace_camera:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/rokey/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rokey/turtlebot3_ws/install/turtlebot3:/home/rokey/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey/turtlebot3_ws/install/turtlebot3_node:/home/rokey/turtlebot3_ws/install/turtlebot3_navigation2:/home/rokey/turtlebot3_ws/install/turtlebot3_msgs:/home/rokey/turtlebot3_ws/install/turtlebot3_gazebo:/home/rokey/turtlebot3_ws/install/turtlebot3_description:/home/rokey/turtlebot3_ws/install/turtlebot3_cartographer:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_examples:/home/rokey/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/rokey/turtlebot3_ws/install/dynamixel_sdk:/home/rokey/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey/turtlebot3_ws/install/turtlebot3_example:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble')]), 'shell': False}
+[12.601933] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.602408] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.602708] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[12.603195] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[12.603361] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_robot.launch.py\n'}
+[12.603439] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_spawn_turtlebot3.launch.py\n'}
+[12.603564] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[12.603640] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[12.603736] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3_org.launch.py\n'}
+[12.603803] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3_urdf_topic.launch.py\n'}
+[12.603913] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace_2020.launch.py\n'}
+[12.604084] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace_2025.launch.py\n'}
+[12.604185] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[12.604260] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[12.604331] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[12.604411] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[12.604547] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[12.604625] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[12.607122] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/checker.png\n'}
+[12.607301] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/scripts/checker.material\n'}
+[12.607377] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/textures/checker.png\n'}
+[12.607484] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.config\n'}
+[12.607550] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.sdf\n'}
+[12.607745] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/scripts/course.material\n'}
+[12.607892] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/textures/course.png\n'}
+[12.607970] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.config\n'}
+[12.608059] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.sdf\n'}
+[12.608157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/scripts/traffic_bar.material\n'}
+[12.608242] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/textures/traffic_bar.png\n'}
+[12.608329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.config\n'}
+[12.608413] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.sdf\n'}
+[12.608505] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/scripts/traffic_construction.material\n'}
+[12.608632] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/textures/traffic_construction.png\n'}
+[12.608786] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.config\n'}
+[12.608884] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.sdf\n'}
+[12.608996] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts/traffic_intersection.material\n'}
+[12.609107] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/textures/traffic_intersection.png\n'}
+[12.609191] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.config\n'}
+[12.609324] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.sdf\n'}
+[12.609431] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/scripts/traffic_is_left.material\n'}
+[12.609512] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/textures/traffic_left.png\n'}
+[12.609614] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.config\n'}
+[12.609746] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.sdf\n'}
+[12.609860] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/scripts/traffic_light.material\n'}
+[12.609963] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light.png\n'}
+[12.610057] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_green.png\n'}
+[12.610148] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_red.png\n'}
+[12.610251] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_yellow.png\n'}
+[12.610354] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.config\n'}
+[12.610453] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.sdf\n'}
+[12.610563] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts/traffic_noentry.material\n'}
+[12.610698] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/textures/traffic_noentry.png\n'}
+[12.610796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.config\n'}
+[12.610890] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.sdf\n'}
+[12.610998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/scripts/traffic_parking.material\n'}
+[12.611106] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/textures/traffic_parking.png\n'}
+[12.611206] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.config\n'}
+[12.611304] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.sdf\n'}
+[12.611412] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts/traffic_pl_left.material\n'}
+[12.611520] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures/traffic_pl_left.png\n'}
+[12.611640] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.config\n'}
+[12.611739] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.sdf\n'}
+[12.611845] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/scripts/traffic_right.material\n'}
+[12.611950] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/textures/traffic_right.png\n'}
+[12.612050] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.config\n'}
+[12.612157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.sdf\n'}
+[12.612264] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/scripts/traffic_stop.material\n'}
+[12.612381] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/textures/traffic_stop.png\n'}
+[12.612478] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.config\n'}
+[12.612578] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.sdf\n'}
+[12.612695] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts/tunnel.material\n'}
+[12.612803] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures/tunnel.png\n'}
+[12.612902] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.config\n'}
+[12.613026] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.sdf\n'}
+[12.613121] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025.tar\n'}
+[12.613201] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/checker/materials/checker.png\n'}
+[12.613312] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/checker/materials/scripts/checker.material\n'}
+[12.613428] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/checker/materials/textures/checker.png\n'}
+[12.613521] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/checker/model.config\n'}
+[12.613620] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/checker/model.sdf\n'}
+[12.613716] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/course/materials/scripts/course.material\n'}
+[12.613813] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/course/materials/textures/course.png\n'}
+[12.613910] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/course/materials/textures/course_2020.png\n'}
+[12.613998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/course/model.config\n'}
+[12.614086] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/course/model.sdf\n'}
+[12.614181] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_bar/materials/scripts/traffic_bar.material\n'}
+[12.614279] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_bar/materials/textures/traffic_bar.png\n'}
+[12.614367] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_bar/model.config\n'}
+[12.614455] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_bar/model.sdf\n'}
+[12.614562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_construction/materials/scripts/traffic_construction.material\n'}
+[12.614665] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_construction/materials/textures/traffic_construction.png\n'}
+[12.614768] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_construction/model.config\n'}
+[12.614858] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_construction/model.sdf\n'}
+[12.614955] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_intersection/materials/scripts/traffic_intersection.material\n'}
+[12.615049] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_intersection/materials/textures/traffic_intersection.png\n'}
+[12.615139] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_intersection/model.config\n'}
+[12.615275] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_intersection/model.sdf\n'}
+[12.615350] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_left/materials/scripts/traffic_is_left.material\n'}
+[12.615440] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_left/materials/textures/traffic_left.png\n'}
+[12.615513] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_left/model.config\n'}
+[12.615606] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_left/model.sdf\n'}
+[12.615688] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_light.tar\n'}
+[12.615785] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_light/materials/scripts/traffic_light.material\n'}
+[12.615879] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_light/materials/textures/traffic_light.png\n'}
+[12.615974] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_light/materials/textures/traffic_light_green.png\n'}
+[12.616069] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_light/materials/textures/traffic_light_red.png\n'}
+[12.616193] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_light/materials/textures/traffic_light_yellow.png\n'}
+[12.616269] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_light/model.config\n'}
+[12.616341] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_light/model.sdf\n'}
+[12.616434] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_noentry/materials/scripts/traffic_noentry.material\n'}
+[12.616530] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_noentry/materials/textures/traffic_noentry.png\n'}
+[12.616627] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_noentry/model.config\n'}
+[12.616718] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_noentry/model.sdf\n'}
+[12.616817] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_parking/materials/scripts/traffic_parking.material\n'}
+[12.616908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_parking/materials/textures/traffic_parking.png\n'}
+[12.617000] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_parking/model.config\n'}
+[12.617089] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_parking/model.sdf\n'}
+[12.617182] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_pl_left/materials/scripts/traffic_pl_left.material\n'}
+[12.617278] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_pl_left/materials/textures/traffic_pl_left.png\n'}
+[12.617379] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_pl_left/model.config\n'}
+[12.617466] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_pl_left/model.sdf\n'}
+[12.617566] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_right/materials/scripts/traffic_right.material\n'}
+[12.617666] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_right/materials/textures/traffic_right.png\n'}
+[12.617755] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_right/model.config\n'}
+[12.617841] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_right/model.sdf\n'}
+[12.617937] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_signal/materials/scripts/traffic_light.material\n'}
+[12.618030] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_signal/materials/textures/traffic_light.png\n'}
+[12.618123] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_signal/materials/textures/traffic_light_green.png\n'}
+[12.618218] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_signal/materials/textures/traffic_light_red.png\n'}
+[12.618309] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_signal/materials/textures/traffic_light_yellow.png\n'}
+[12.618408] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_signal/model.config\n'}
+[12.618491] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_signal/model.sdf\n'}
+[12.618588] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_stop/materials/scripts/traffic_stop.material\n'}
+[12.618717] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_stop/materials/textures/traffic_stop.png\n'}
+[12.618805] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_stop/model.config\n'}
+[12.618882] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_stop/model.sdf\n'}
+[12.618976] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_tunnel/materials/scripts/tunnel.material\n'}
+[12.619063] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_tunnel/materials/textures/tunnel.png\n'}
+[12.619132] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_tunnel/model.config\n'}
+[12.619200] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2025/traffic_tunnel/model.sdf\n'}
+[12.619274] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[12.619353] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[12.619432] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[12.619511] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model-1_4.sdf\n'}
+[12.619603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.config\n'}
+[12.619723] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.sdf\n'}
+[12.619803] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/burger_base.stl\n'}
+[12.619873] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_base.stl\n'}
+[12.619947] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl\n'}
+[12.620069] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[12.620140] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[12.620209] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[12.620283] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.dae\n'}
+[12.620368] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.jpg\n'}
+[12.620452] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/lds.stl\n'}
+[12.620573] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.dae\n'}
+[12.620653] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.jpg\n'}
+[12.620724] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[12.620795] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[12.620889] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[12.620975] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/left_tire.stl\n'}
+[12.621063] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/right_tire.stl\n'}
+[12.621143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[12.621224] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[12.621305] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[12.621390] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[12.621470] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[12.621551] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[12.621642] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[12.621738] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[12.621820] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[12.621902] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[12.621983] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[12.622065] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[12.622146] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[12.622227] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[12.622307] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[12.622389] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[12.622469] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[12.622598] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[12.622666] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[12.622733] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[12.622806] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[12.622890] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[12.622969] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[12.623048] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[12.623126] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[12.623203] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[12.623391] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[12.623609] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[12.623696] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[12.623774] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger_cam.urdf\n'}
+[12.623852] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[12.623927] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[12.624141] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[12.624316] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autorace_2020.world\n'}
+[12.624414] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autorace_2025.world\n'}
+[12.624490] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[12.624567] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[12.624649] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[12.624734] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[12.624790] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[12.624859] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[12.625065] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle1.hpp\n'}
+[12.625146] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle2.hpp\n'}
+[12.625283] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacles.hpp\n'}
+[12.625356] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_bar_plugin.hpp\n'}
+[12.625429] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_light_plugin.hpp\n'}
+[12.625497] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_signal_plugin.hpp\n'}
+[12.625574] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[12.625694] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[12.625824] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[12.625952] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[12.626171] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[12.626333] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[12.626440] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[12.626512] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[12.626669] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[12.626794] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[12.626866] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[12.626948] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[12.635421] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[12.635636] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.635807] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.635893] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[12.635981] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[12.636042] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rokey/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[12.637758] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[12.641929] (-) TimerEvent: {}
+[12.657541] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[12.658166] (-) EventReactorShutdown: {}

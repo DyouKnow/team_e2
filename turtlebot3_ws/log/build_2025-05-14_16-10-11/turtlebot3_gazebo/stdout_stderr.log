@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target traffic_signal_plugin[0m
+[ 14%] Built target turtlebot3_drive
+[ 28%] Built target traffic_bar_plugin
+[ 42%] Built target obstacle1
+[ 57%] Built target traffic_light_plugin
+[ 71%] Built target obstacle2
+[ 85%] Built target obstacles
+[ 92%] [32mBuilding CXX object CMakeFiles/traffic_signal_plugin.dir/src/traffic_signal_plugin.cpp.o[0m
+[01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:43:3:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K@[m[K’ in program
+   43 |   [01;31m[K@[m[K@ void TrafficSignal::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf)
+      |   [01;31m[K^[m[K
+[01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:43:4:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K@[m[K’ in program
+   43 |   @[01;31m[K@[m[K void TrafficSignal::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf)
+      |    [01;31m[K^[m[K
+[01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::TrafficSignal::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:43:30:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   43 |   @@ void TrafficSignal::Load[01;31m[K([m[Kphysics::ModelPtr _model, sdf::ElementPtr _sdf)
+      |                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/traffic_signal_plugin.dir/build.make:76: CMakeFiles/traffic_signal_plugin.dir/src/traffic_signal_plugin.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/traffic_signal_plugin.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

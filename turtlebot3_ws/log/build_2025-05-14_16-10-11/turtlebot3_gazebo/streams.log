@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/rokey/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey/turtlebot3_ws/install/turtlebot3_example:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --build /home/rokey/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target traffic_signal_plugin[0m
+[0.100s] [ 14%] Built target turtlebot3_drive
+[0.107s] [ 28%] Built target traffic_bar_plugin
+[0.116s] [ 42%] Built target obstacle1
+[0.117s] [ 57%] Built target traffic_light_plugin
+[0.117s] [ 71%] Built target obstacle2
+[0.119s] [ 85%] Built target obstacles
+[0.132s] [ 92%] [32mBuilding CXX object CMakeFiles/traffic_signal_plugin.dir/src/traffic_signal_plugin.cpp.o[0m
+[2.378s] [01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:43:3:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K@[m[K’ in program
+[2.378s]    43 |   [01;31m[K@[m[K@ void TrafficSignal::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf)
+[2.378s]       |   [01;31m[K^[m[K
+[2.378s] [01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:43:4:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K@[m[K’ in program
+[2.378s]    43 |   @[01;31m[K@[m[K void TrafficSignal::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf)
+[2.378s]       |    [01;31m[K^[m[K
+[8.278s] [01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::TrafficSignal::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[8.278s] [01m[K/home/rokey/turtlebot3_ws/src/turtlebot3_gazebo/src/traffic_signal_plugin.cpp:43:30:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[8.278s]    43 |   @@ void TrafficSignal::Load[01;31m[K([m[Kphysics::ModelPtr _model, sdf::ElementPtr _sdf)
+[8.278s]       |                              [01;31m[K^[m[K
+[10.798s] gmake[2]: *** [CMakeFiles/traffic_signal_plugin.dir/build.make:76: CMakeFiles/traffic_signal_plugin.dir/src/traffic_signal_plugin.cpp.o] 오류 1
+[10.798s] gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/traffic_signal_plugin.dir/all] 오류 2
+[10.799s] gmake: *** [Makefile:146: all] 오류 2
+[10.801s] Invoked command in '/home/rokey/turtlebot3_ws/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey/turtlebot3_ws/install/turtlebot3_example:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/rokey/turtlebot3_ws/install/turtlebot3_autorace_camera:/opt/ros/humble /usr/bin/cmake --build /home/rokey/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
