@@ -1,0 +1,80 @@
+[0.029s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.270s] -- The CXX compiler identification is GNU 11.4.0
+[0.288s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.459s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.460s] -- Detecting C compile features
+[0.461s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.639s] -- Detecting CXX compiler ABI info - done
+[0.664s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.665s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.679s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.068s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.217s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.318s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.419s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.430s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.448s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.508s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.602s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.608s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.766s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.829s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.931s] -- Looking for pthread.h
+[2.071s] -- Looking for pthread.h - found
+[2.072s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.218s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.222s] -- Found Threads: TRUE  
+[2.354s] -- Found turtlebot3_manipulation_bringup: 2.2.0 (/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/cmake)
+[2.355s] -- Found turtlebot3_manipulation_moveit_config: 2.2.0 (/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/cmake)
+[2.356s] -- Found turtlebot3_manipulation_description: 2.2.0 (/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake)
+[2.360s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.397s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.444s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.622s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.647s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.679s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.908s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.911s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.912s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop/include>
+[2.912s] -- Configured cppcheck exclude dirs and/or files: 
+[2.914s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.915s] -- Configured cpplint exclude dirs and/or files: 
+[2.917s] -- Added test 'lint_cmake' to check CMake code style
+[2.920s] -- Added test 'uncrustify' to check C / C++ code style
+[2.920s] -- Configured uncrustify additional arguments: 
+[2.921s] -- Added test 'xmllint' to check XML markup files
+[2.925s] -- Configuring done
+[2.956s] -- Generating done
+[2.965s] -- Build files have been written to: /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop
+[2.994s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop
+[2.999s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop -- -j6 -l6
+[3.107s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_teleop.dir/src/turtlebot3_manipulation_teleop.cpp.o[0m
+[18.086s] [100%] [32m[1mLinking CXX executable turtlebot3_manipulation_teleop[0m
+[18.758s] [100%] Built target turtlebot3_manipulation_teleop
+[18.784s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop -- -j6 -l6
+[18.790s] Invoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop
+[18.806s] -- Install configuration: ""
+[18.806s] -- Execute custom install script
+[18.807s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/lib/turtlebot3_manipulation_teleop/turtlebot3_manipulation_teleop
+[18.826s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_teleop
+[18.844s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_teleop
+[18.865s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/ament_prefix_path.sh
+[18.884s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/ament_prefix_path.dsv
+[18.904s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/path.sh
+[18.924s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/path.dsv
+[18.944s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.bash
+[18.963s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.sh
+[18.984s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.zsh
+[19.004s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.dsv
+[19.024s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.dsv
+[19.044s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/ament_index/resource_index/packages/turtlebot3_manipulation_teleop
+[19.065s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/cmake/turtlebot3_manipulation_teleopConfig.cmake
+[19.084s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/cmake/turtlebot3_manipulation_teleopConfig-version.cmake
+[19.103s] -- Symlinking: /home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.xml
+[19.129s] Invoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop

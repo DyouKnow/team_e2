@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000923] (-) JobUnselected: {'identifier': 'aruco_yolo'}
+[0.001204] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.001501] (-) JobUnselected: {'identifier': 'sample_pkg'}
+[0.001593] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation'}
+[0.001663] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_bringup'}
+[0.001728] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_description'}
+[0.001819] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_hardware'}
+[0.001882] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_moveit_config'}
+[0.001944] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_teleop'}
+[0.002026] (-) JobUnselected: {'identifier': 'turtlebot_cosmo_interface'}
+[0.002095] (turtlebot_moveit) JobQueued: {'identifier': 'turtlebot_moveit', 'dependencies': OrderedDict([('turtlebot_cosmo_interface', '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface')])}
+[0.002175] (turtlebot_moveit) JobStarted: {'identifier': 'turtlebot_moveit'}
+[0.025658] (turtlebot_moveit) JobEnded: {'identifier': 'turtlebot_moveit', 'rc': 1}
+[0.036590] (-) EventReactorShutdown: {}

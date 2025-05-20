@@ -1,0 +1,832 @@
+[0.258s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--parallel-workers', '1'][0m
+[0.259s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffba8ca020>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffba8c96c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffba8c96c0>>, mixin_verb=('build',))[0m
+[0.660s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/rokey-jw/rokeypj_ws'
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.716s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aruco_yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aruco_yolo) by extension 'ignore'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aruco_yolo) by extension 'ignore_ament_install'
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aruco_yolo) by extensions ['colcon_pkg']
+[0.717s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aruco_yolo) by extension 'colcon_pkg'
+[0.718s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aruco_yolo) by extensions ['colcon_meta']
+[0.718s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aruco_yolo) by extension 'colcon_meta'
+[0.718s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aruco_yolo) by extensions ['ros']
+[0.718s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aruco_yolo) by extension 'ros'
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/aruco_yolo' with type 'ros.ament_python' and name 'aruco_yolo'[0m
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ld08_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ld08_driver) by extension 'ignore'
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ld08_driver) by extension 'ignore_ament_install'
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ld08_driver) by extensions ['colcon_pkg']
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ld08_driver) by extension 'colcon_pkg'
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ld08_driver) by extensions ['colcon_meta']
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ld08_driver) by extension 'colcon_meta'
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ld08_driver) by extensions ['ros']
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ld08_driver) by extension 'ros'
+[0.727s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ld08_driver' with type 'ros.ament_cmake' and name 'ld08_driver'[0m
+[0.727s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sample_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sample_pkg) by extension 'ignore'
+[0.727s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sample_pkg) by extension 'ignore_ament_install'
+[0.727s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sample_pkg) by extensions ['colcon_pkg']
+[0.728s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sample_pkg) by extension 'colcon_pkg'
+[0.728s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sample_pkg) by extensions ['colcon_meta']
+[0.728s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sample_pkg) by extension 'colcon_meta'
+[0.728s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sample_pkg) by extensions ['ros']
+[0.728s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sample_pkg) by extension 'ros'
+[0.729s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/sample_pkg' with type 'ros.ament_python' and name 'sample_pkg'[0m
+[0.729s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extensions ['ignore', 'ignore_ament_install']
+[0.729s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extension 'ignore'
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extension 'ignore_ament_install'
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extensions ['colcon_pkg']
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extension 'colcon_pkg'
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extensions ['colcon_meta']
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extension 'colcon_meta'
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extensions ['ros']
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extension 'ros'
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extensions ['cmake', 'python']
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extension 'cmake'
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extension 'python'
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extensions ['python_setup_py']
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation) by extension 'python_setup_py'
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'ignore'
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'ignore_ament_install'
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['colcon_pkg']
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'colcon_pkg'
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['colcon_meta']
+[0.731s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'colcon_meta'
+[0.732s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extensions ['ros']
+[0.732s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation) by extension 'ros'
+[0.733s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot3_manipulation/turtlebot3_manipulation' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation'[0m
+[0.733s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'ignore'
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'ignore_ament_install'
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['colcon_pkg']
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'colcon_pkg'
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['colcon_meta']
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'colcon_meta'
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extensions ['ros']
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_bringup) by extension 'ros'
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot3_manipulation/turtlebot3_manipulation_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_bringup'[0m
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'ignore'
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'ignore_ament_install'
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['colcon_pkg']
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'colcon_pkg'
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['colcon_meta']
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'colcon_meta'
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extensions ['ros']
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_description) by extension 'ros'
+[0.738s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot3_manipulation/turtlebot3_manipulation_description' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_description'[0m
+[0.738s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.738s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'ignore'
+[0.738s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'ignore_ament_install'
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['colcon_pkg']
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'colcon_pkg'
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['colcon_meta']
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'colcon_meta'
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extensions ['ros']
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_hardware) by extension 'ros'
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot3_manipulation/turtlebot3_manipulation_hardware' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_hardware'[0m
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'ignore'
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'ignore_ament_install'
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['colcon_pkg']
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'colcon_pkg'
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['colcon_meta']
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'colcon_meta'
+[0.742s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extensions ['ros']
+[0.742s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config) by extension 'ros'
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_moveit_config'[0m
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'ignore'
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'ignore_ament_install'
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['colcon_pkg']
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'colcon_pkg'
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['colcon_meta']
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'colcon_meta'
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extensions ['ros']
+[0.745s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_manipulation/turtlebot3_manipulation_teleop) by extension 'ros'
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot3_manipulation/turtlebot3_manipulation_teleop' with type 'ros.ament_cmake' and name 'turtlebot3_manipulation_teleop'[0m
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_msgs) by extension 'ignore'
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_msgs) by extension 'ignore_ament_install'
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_msgs) by extensions ['colcon_pkg']
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_msgs) by extension 'colcon_pkg'
+[0.747s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_msgs) by extensions ['colcon_meta']
+[0.748s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_msgs) by extension 'colcon_meta'
+[0.748s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_msgs) by extensions ['ros']
+[0.748s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_msgs) by extension 'ros'
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot3_msgs' with type 'ros.ament_cmake' and name 'turtlebot3_msgs'[0m
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extension 'ignore'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extension 'ignore_ament_install'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extensions ['colcon_pkg']
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extension 'colcon_pkg'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extensions ['colcon_meta']
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extension 'colcon_meta'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extensions ['ros']
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extension 'ros'
+[0.750s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extensions ['cmake', 'python']
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extension 'cmake'
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extension 'python'
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extensions ['python_setup_py']
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface) by extension 'python_setup_py'
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'ignore'
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'ignore_ament_install'
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extensions ['colcon_pkg']
+[0.751s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'colcon_pkg'
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extensions ['colcon_meta']
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'colcon_meta'
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extensions ['ros']
+[0.752s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_cosmo_interface/turtlebot_cosmo_interface) by extension 'ros'
+[0.753s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot_cosmo_interface/turtlebot_cosmo_interface' with type 'ros.ament_cmake' and name 'turtlebot_cosmo_interface'[0m
+[0.753s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extension 'ignore'
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extension 'ignore_ament_install'
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extensions ['colcon_pkg']
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extension 'colcon_pkg'
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extensions ['colcon_meta']
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extension 'colcon_meta'
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extensions ['ros']
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extension 'ros'
+[0.754s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extensions ['cmake', 'python']
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extension 'cmake'
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extension 'python'
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extensions ['python_setup_py']
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit) by extension 'python_setup_py'
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit/turtlebot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit/turtlebot_moveit) by extension 'ignore'
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit/turtlebot_moveit) by extension 'ignore_ament_install'
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit/turtlebot_moveit) by extensions ['colcon_pkg']
+[0.755s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit/turtlebot_moveit) by extension 'colcon_pkg'
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit/turtlebot_moveit) by extensions ['colcon_meta']
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit/turtlebot_moveit) by extension 'colcon_meta'
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit/turtlebot_moveit) by extensions ['ros']
+[0.756s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot_moveit/turtlebot_moveit) by extension 'ros'
+[0.757s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot_moveit/turtlebot_moveit' with type 'ros.ament_cmake' and name 'turtlebot_moveit'[0m
+[0.758s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.758s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.758s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.758s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.758s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.797s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.797s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.802s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 6 installed packages in /home/rokey-jw/rokeypj_ws/install[0m
+[0.803s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 7 installed packages in /home/rokey-jw/turtlebot3_ws/install[0m
+[0.805s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 319 installed packages in /opt/ros/humble[0m
+[0.808s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.890s] [34mcolcon.colcon_core.package_selection[0m [1;30mWARNING[0m [33mSome selected packages are already built in one or more underlay workspaces:
+	'turtlebot3_msgs' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlebot3_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.[0m
+[0.892s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aruco_yolo' build argument 'cmake_args' from command line to 'None'
+[0.893s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aruco_yolo' build argument 'cmake_target' from command line to 'None'
+[0.893s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aruco_yolo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.893s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aruco_yolo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.893s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aruco_yolo' build argument 'cmake_clean_first' from command line to 'False'
+[0.893s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aruco_yolo' build argument 'cmake_force_configure' from command line to 'False'
+[0.893s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aruco_yolo' build argument 'ament_cmake_args' from command line to 'None'
+[0.893s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aruco_yolo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.893s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'aruco_yolo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.893s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'aruco_yolo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/aruco_yolo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/aruco_yolo', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/aruco_yolo', 'symlink_install': True, 'test_result_base': None}[0m
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ld08_driver' build argument 'cmake_args' from command line to 'None'
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ld08_driver' build argument 'cmake_target' from command line to 'None'
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ld08_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ld08_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ld08_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ld08_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ld08_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ld08_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ld08_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.894s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ld08_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/ld08_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/ld08_driver', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/ld08_driver', 'symlink_install': True, 'test_result_base': None}[0m
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sample_pkg' build argument 'cmake_args' from command line to 'None'
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sample_pkg' build argument 'cmake_target' from command line to 'None'
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sample_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sample_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sample_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sample_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sample_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sample_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sample_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.895s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'sample_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/sample_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/sample_pkg', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/sample_pkg', 'symlink_install': True, 'test_result_base': None}[0m
+[0.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_description' build argument 'cmake_args' from command line to 'None'
+[0.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_description' build argument 'cmake_target' from command line to 'None'
+[0.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot3_manipulation_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description', 'symlink_install': True, 'test_result_base': None}[0m
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_hardware' build argument 'cmake_args' from command line to 'None'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_hardware' build argument 'cmake_target' from command line to 'None'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.898s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.898s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.898s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.898s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.898s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot3_manipulation_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware', 'symlink_install': True, 'test_result_base': None}[0m
+[0.898s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_msgs' build argument 'cmake_args' from command line to 'None'
+[0.898s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_msgs' build argument 'cmake_target' from command line to 'None'
+[0.899s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.899s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.899s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.899s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.899s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.899s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.899s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.899s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot3_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/turtlebot3_msgs', 'symlink_install': True, 'test_result_base': None}[0m
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_cosmo_interface' build argument 'cmake_args' from command line to 'None'
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_cosmo_interface' build argument 'cmake_target' from command line to 'None'
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_cosmo_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_cosmo_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_cosmo_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_cosmo_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_cosmo_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_cosmo_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_cosmo_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.900s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot_cosmo_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface', 'symlink_install': True, 'test_result_base': None}[0m
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_bringup' build argument 'cmake_args' from command line to 'None'
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_bringup' build argument 'cmake_target' from command line to 'None'
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.901s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot3_manipulation_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup', 'symlink_install': True, 'test_result_base': None}[0m
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.902s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot3_manipulation_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config', 'symlink_install': True, 'test_result_base': None}[0m
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_moveit' build argument 'cmake_args' from command line to 'None'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_moveit' build argument 'cmake_target' from command line to 'None'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit', 'symlink_install': True, 'test_result_base': None}[0m
+[0.904s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_teleop' build argument 'cmake_args' from command line to 'None'
+[0.904s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_teleop' build argument 'cmake_target' from command line to 'None'
+[0.904s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.904s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.904s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.904s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.904s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.904s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.904s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.905s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot3_manipulation_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop', 'symlink_install': True, 'test_result_base': None}[0m
+[0.905s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation' build argument 'cmake_args' from command line to 'None'
+[0.905s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation' build argument 'cmake_target' from command line to 'None'
+[0.905s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.905s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.905s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.905s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.905s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.906s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.906s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_manipulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.906s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot3_manipulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation', 'merge_install': False, 'path': '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation', 'symlink_install': True, 'test_result_base': None}[0m
+[0.906s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.908s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.909s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description' with build type 'ament_cmake'
+[0.909s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description'
+[0.914s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.915s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.934s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description -- -j6 -l6[0m
+[1.006s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description -- -j6 -l6[0m
+[1.033s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description[0m
+[1.085s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_description)
+[1.087s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_description[0m
+[1.097s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description' for CMake module files
+[1.099s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description' for CMake config files
+[1.100s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_description', 'cmake_prefix_path')
+[1.101s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.ps1'
+[1.104s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.dsv'
+[1.105s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.sh'
+[1.109s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/bin'
+[1.109s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/lib/pkgconfig/turtlebot3_manipulation_description.pc'
+[1.110s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/lib/python3.10/site-packages'
+[1.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/bin'
+[1.112s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.ps1'
+[1.116s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv'
+[1.117s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.sh'
+[1.120s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.bash'
+[1.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.zsh'
+[1.126s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/colcon-core/packages/turtlebot3_manipulation_description)
+[1.128s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_description)
+[1.129s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description' for CMake module files
+[1.130s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description' for CMake config files
+[1.132s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_description', 'cmake_prefix_path')
+[1.133s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.ps1'
+[1.134s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.dsv'
+[1.136s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/hook/cmake_prefix_path.sh'
+[1.138s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/bin'
+[1.138s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/lib/pkgconfig/turtlebot3_manipulation_description.pc'
+[1.139s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/lib/python3.10/site-packages'
+[1.140s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/bin'
+[1.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.ps1'
+[1.143s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv'
+[1.144s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.sh'
+[1.146s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.bash'
+[1.148s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.zsh'
+[1.149s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share/colcon-core/packages/turtlebot3_manipulation_description)
+[1.150s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup' with build type 'ament_cmake'
+[1.151s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup'
+[1.152s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.152s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.179s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_bringup': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_bringup -- -j6 -l6[0m
+[1.268s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_bringup' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_bringup -- -j6 -l6[0m
+[1.273s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_bringup': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_bringup[0m
+[1.325s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_bringup)
+[1.327s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup' for CMake module files
+[1.329s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_bringup' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_bringup[0m
+[1.331s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup' for CMake config files
+[1.332s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_bringup', 'cmake_prefix_path')
+[1.333s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.ps1'
+[1.335s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.dsv'
+[1.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.sh'
+[1.338s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/bin'
+[1.339s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/lib/pkgconfig/turtlebot3_manipulation_bringup.pc'
+[1.339s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/lib/python3.10/site-packages'
+[1.340s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/bin'
+[1.341s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.ps1'
+[1.343s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.dsv'
+[1.345s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.sh'
+[1.347s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.bash'
+[1.348s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.zsh'
+[1.349s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/colcon-core/packages/turtlebot3_manipulation_bringup)
+[1.351s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_bringup)
+[1.352s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup' for CMake module files
+[1.354s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup' for CMake config files
+[1.355s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_bringup', 'cmake_prefix_path')
+[1.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.ps1'
+[1.358s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.dsv'
+[1.359s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/hook/cmake_prefix_path.sh'
+[1.361s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/bin'
+[1.362s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/lib/pkgconfig/turtlebot3_manipulation_bringup.pc'
+[1.362s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/lib/python3.10/site-packages'
+[1.363s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/bin'
+[1.364s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.ps1'
+[1.366s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.dsv'
+[1.368s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.sh'
+[1.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.bash'
+[1.371s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.zsh'
+[1.373s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/colcon-core/packages/turtlebot3_manipulation_bringup)
+[1.374s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config' with build type 'ament_cmake'
+[1.375s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config'
+[1.376s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.376s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.406s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_moveit_config': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_moveit_config -- -j6 -l6[0m
+[1.498s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_moveit_config -- -j6 -l6[0m
+[1.503s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_moveit_config': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_moveit_config[0m
+[1.556s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_moveit_config)
+[1.557s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config' for CMake module files
+[1.559s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_moveit_config[0m
+[1.560s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config' for CMake config files
+[1.562s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_moveit_config', 'cmake_prefix_path')
+[1.563s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.ps1'
+[1.564s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.dsv'
+[1.566s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.sh'
+[1.568s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/bin'
+[1.568s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/lib/pkgconfig/turtlebot3_manipulation_moveit_config.pc'
+[1.569s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/lib/python3.10/site-packages'
+[1.570s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/bin'
+[1.571s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.ps1'
+[1.573s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.dsv'
+[1.574s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.sh'
+[1.576s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.bash'
+[1.577s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.zsh'
+[1.578s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/colcon-core/packages/turtlebot3_manipulation_moveit_config)
+[1.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_moveit_config)
+[1.581s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config' for CMake module files
+[1.583s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config' for CMake config files
+[1.584s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_moveit_config', 'cmake_prefix_path')
+[1.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.ps1'
+[1.587s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.dsv'
+[1.588s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/hook/cmake_prefix_path.sh'
+[1.590s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/bin'
+[1.590s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/lib/pkgconfig/turtlebot3_manipulation_moveit_config.pc'
+[1.591s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/lib/python3.10/site-packages'
+[1.592s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/bin'
+[1.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.ps1'
+[1.595s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.dsv'
+[1.596s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.sh'
+[1.598s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.bash'
+[1.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.zsh'
+[1.601s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config/share/colcon-core/packages/turtlebot3_manipulation_moveit_config)
+[1.602s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware' with build type 'ament_cmake'
+[1.603s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware'
+[1.604s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.604s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.632s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware[0m
+[3.614s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware[0m
+[3.619s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware -- -j6 -l6[0m
+[12.210s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware -- -j6 -l6[0m
+[12.217s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware[0m
+[12.799s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_hardware)
+[12.801s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware' for CMake module files
+[12.803s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_hardware[0m
+[12.804s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware' for CMake config files
+[12.806s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_hardware', 'cmake_prefix_path')
+[12.807s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.ps1'
+[12.809s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.dsv'
+[12.810s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.sh'
+[12.811s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/lib'
+[12.812s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_hardware', 'ld_library_path_lib')
+[12.813s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.ps1'
+[12.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.dsv'
+[12.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.sh'
+[12.815s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/bin'
+[12.815s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/lib/pkgconfig/turtlebot3_manipulation_hardware.pc'
+[12.816s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/lib/python3.10/site-packages'
+[12.816s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/bin'
+[12.817s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.ps1'
+[12.818s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.dsv'
+[12.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.sh'
+[12.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.bash'
+[12.822s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.zsh'
+[12.824s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/colcon-core/packages/turtlebot3_manipulation_hardware)
+[12.826s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_hardware)
+[12.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware' for CMake module files
+[12.828s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware' for CMake config files
+[12.830s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_hardware', 'cmake_prefix_path')
+[12.831s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.ps1'
+[12.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.dsv'
+[12.833s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/cmake_prefix_path.sh'
+[12.835s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/lib'
+[12.836s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_hardware', 'ld_library_path_lib')
+[12.837s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.ps1'
+[12.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.dsv'
+[12.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/hook/ld_library_path_lib.sh'
+[12.840s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/bin'
+[12.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/lib/pkgconfig/turtlebot3_manipulation_hardware.pc'
+[12.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/lib/python3.10/site-packages'
+[12.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/bin'
+[12.843s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.ps1'
+[12.845s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.dsv'
+[12.847s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.sh'
+[12.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.bash'
+[12.849s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.zsh'
+[12.851s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_hardware/share/colcon-core/packages/turtlebot3_manipulation_hardware)
+[12.852s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface' with build type 'ament_cmake'
+[12.853s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rokey-jw/rokeypj_ws/src/turtlebot_cosmo_interface/turtlebot_cosmo_interface'
+[12.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.854s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[12.884s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface -- -j6 -l6[0m
+[13.697s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface -- -j6 -l6[0m
+[13.702s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface[0m
+[13.860s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot_cosmo_interface)
+[13.861s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface' for CMake module files
+[13.863s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot_cosmo_interface[0m
+[13.865s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface' for CMake config files
+[13.868s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot_cosmo_interface', 'cmake_prefix_path')
+[13.869s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/cmake_prefix_path.ps1'
+[13.871s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/cmake_prefix_path.dsv'
+[13.872s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/cmake_prefix_path.sh'
+[13.874s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib'
+[13.874s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot_cosmo_interface', 'ld_library_path_lib')
+[13.875s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/ld_library_path_lib.ps1'
+[13.877s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/ld_library_path_lib.dsv'
+[13.878s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/ld_library_path_lib.sh'
+[13.880s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/bin'
+[13.880s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/pkgconfig/turtlebot_cosmo_interface.pc'
+[13.881s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/python3.10/site-packages'
+[13.882s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/bin'
+[13.883s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.ps1'
+[13.885s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.dsv'
+[13.887s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.sh'
+[13.889s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.bash'
+[13.890s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.zsh'
+[13.891s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/colcon-core/packages/turtlebot_cosmo_interface)
+[13.893s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot_cosmo_interface)
+[13.894s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface' for CMake module files
+[13.897s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface' for CMake config files
+[13.899s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot_cosmo_interface', 'cmake_prefix_path')
+[13.900s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/cmake_prefix_path.ps1'
+[13.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/cmake_prefix_path.dsv'
+[13.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/cmake_prefix_path.sh'
+[13.905s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib'
+[13.905s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot_cosmo_interface', 'ld_library_path_lib')
+[13.906s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/ld_library_path_lib.ps1'
+[13.907s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/ld_library_path_lib.dsv'
+[13.909s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/hook/ld_library_path_lib.sh'
+[13.911s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/bin'
+[13.911s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/pkgconfig/turtlebot_cosmo_interface.pc'
+[13.912s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib/python3.10/site-packages'
+[13.913s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/bin'
+[13.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.ps1'
+[13.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.dsv'
+[13.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.sh'
+[13.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.bash'
+[13.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/turtlebot_cosmo_interface/package.zsh'
+[13.922s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/share/colcon-core/packages/turtlebot_cosmo_interface)
+[13.923s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop' with build type 'ament_cmake'
+[13.924s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop'
+[13.925s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.925s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[13.957s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop[0m
+[16.922s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop[0m
+[16.927s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop -- -j6 -l6[0m
+[32.712s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop -- -j6 -l6[0m
+[32.717s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop[0m
+[33.054s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_teleop)
+[33.055s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop' for CMake module files
+[33.057s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop' returned '0': CMAKE_PREFIX_PATH=/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_manipulation_teleop[0m
+[33.059s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop' for CMake config files
+[33.060s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_teleop', 'cmake_prefix_path')
+[33.061s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.ps1'
+[33.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.dsv'
+[33.064s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.sh'
+[33.066s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/lib'
+[33.066s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/bin'
+[33.066s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/lib/pkgconfig/turtlebot3_manipulation_teleop.pc'
+[33.067s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/lib/python3.10/site-packages'
+[33.068s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/bin'
+[33.069s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.ps1'
+[33.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.dsv'
+[33.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.sh'
+[33.074s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.bash'
+[33.075s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.zsh'
+[33.076s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/colcon-core/packages/turtlebot3_manipulation_teleop)
+[33.079s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_manipulation_teleop)
+[33.079s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop' for CMake module files
+[33.081s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop' for CMake config files
+[33.082s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_manipulation_teleop', 'cmake_prefix_path')
+[33.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.ps1'
+[33.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.dsv'
+[33.086s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/hook/cmake_prefix_path.sh'
+[33.088s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/lib'
+[33.088s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/bin'
+[33.088s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/lib/pkgconfig/turtlebot3_manipulation_teleop.pc'
+[33.089s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/lib/python3.10/site-packages'
+[33.090s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/bin'
+[33.091s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.ps1'
+[33.093s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.dsv'
+[33.096s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.sh'
+[33.097s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.bash'
+[33.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.zsh'
+[33.100s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_teleop/share/colcon-core/packages/turtlebot3_manipulation_teleop)
+[33.102s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/aruco_yolo' with build type 'ament_python'
+[33.102s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('aruco_yolo', 'ament_prefix_path')
+[33.103s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/hook/ament_prefix_path.ps1'
+[33.106s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/hook/ament_prefix_path.dsv'
+[33.108s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/hook/ament_prefix_path.sh'
+[33.110s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.110s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[33.754s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/rokey-jw/rokeypj_ws/src/aruco_yolo'
+[33.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.756s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[34.690s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/aruco_yolo': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/aruco_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/aruco_yolo/build --no-deps symlink_data[0m
+[35.843s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('aruco_yolo', 'pythonpath_develop')
+[35.844s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/build/aruco_yolo/share/aruco_yolo/hook/pythonpath_develop.ps1'
+[35.846s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/aruco_yolo' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/aruco_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/aruco_yolo/build --no-deps symlink_data[0m
+[35.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/build/aruco_yolo/share/aruco_yolo/hook/pythonpath_develop.dsv'
+[35.849s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/build/aruco_yolo/share/aruco_yolo/hook/pythonpath_develop.sh'
+[35.851s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/aruco_yolo' for CMake module files
+[35.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/aruco_yolo' for CMake config files
+[35.855s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib'
+[35.855s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/bin'
+[35.856s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/pkgconfig/aruco_yolo.pc'
+[35.856s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/lib/python3.10/site-packages'
+[35.857s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('aruco_yolo', 'pythonpath')
+[35.857s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/hook/pythonpath.ps1'
+[35.859s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/hook/pythonpath.dsv'
+[35.860s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/hook/pythonpath.sh'
+[35.862s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/bin'
+[35.863s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(aruco_yolo)
+[35.864s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/package.ps1'
+[35.866s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/package.dsv'
+[35.867s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/package.sh'
+[35.869s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/package.bash'
+[35.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/aruco_yolo/package.zsh'
+[35.872s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/aruco_yolo/share/colcon-core/packages/aruco_yolo)
+[35.873s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/ld08_driver' with build type 'ament_cmake'
+[35.874s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rokey-jw/rokeypj_ws/src/ld08_driver'
+[35.875s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.875s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[35.908s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/ld08_driver -- -j6 -l6[0m
+[46.405s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/ld08_driver -- -j6 -l6[0m
+[46.409s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/ld08_driver[0m
+[46.822s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ld08_driver)
+[46.824s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver' for CMake module files
+[46.825s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/ld08_driver[0m
+[46.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver' for CMake config files
+[46.828s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[46.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[46.831s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[46.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[46.833s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/lib'
+[46.834s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/bin'
+[46.834s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[46.835s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/lib/python3.10/site-packages'
+[46.835s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/bin'
+[46.836s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.ps1'
+[46.837s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.dsv'
+[46.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.sh'
+[46.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.bash'
+[46.840s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.zsh'
+[46.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[46.844s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ld08_driver)
+[46.845s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver' for CMake module files
+[46.847s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver' for CMake config files
+[46.847s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[46.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[46.849s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[46.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[46.852s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/lib'
+[46.852s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/bin'
+[46.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[46.854s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/lib/python3.10/site-packages'
+[46.854s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/ld08_driver/bin'
+[46.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.ps1'
+[46.857s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.dsv'
+[46.859s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.sh'
+[46.860s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.bash'
+[46.862s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/ld08_driver/package.zsh'
+[46.863s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[46.865s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/sample_pkg' with build type 'ament_python'
+[46.865s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sample_pkg', 'ament_prefix_path')
+[46.866s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/hook/ament_prefix_path.ps1'
+[46.868s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/hook/ament_prefix_path.dsv'
+[46.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/hook/ament_prefix_path.sh'
+[46.872s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.872s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[47.557s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/rokey-jw/rokeypj_ws/src/sample_pkg'
+[47.559s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[47.559s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[48.479s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/sample_pkg': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/sample_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/sample_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/sample_pkg/build --no-deps symlink_data[0m
+[49.620s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sample_pkg', 'pythonpath_develop')
+[49.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/build/sample_pkg/share/sample_pkg/hook/pythonpath_develop.ps1'
+[49.622s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/sample_pkg' returned '0': PYTHONPATH=/home/rokey-jw/rokeypj_ws/build/sample_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey-jw/rokeypj_ws/install/sample_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey-jw/rokeypj_ws/build/sample_pkg/build --no-deps symlink_data[0m
+[49.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/build/sample_pkg/share/sample_pkg/hook/pythonpath_develop.dsv'
+[49.624s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/build/sample_pkg/share/sample_pkg/hook/pythonpath_develop.sh'
+[49.625s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/sample_pkg' for CMake module files
+[49.626s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/sample_pkg' for CMake config files
+[49.627s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/sample_pkg/lib'
+[49.628s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/sample_pkg/bin'
+[49.628s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/sample_pkg/lib/pkgconfig/sample_pkg.pc'
+[49.628s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/sample_pkg/lib/python3.10/site-packages'
+[49.628s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sample_pkg', 'pythonpath')
+[49.629s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/hook/pythonpath.ps1'
+[49.630s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/hook/pythonpath.dsv'
+[49.630s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/hook/pythonpath.sh'
+[49.632s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/sample_pkg/bin'
+[49.632s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(sample_pkg)
+[49.632s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/package.ps1'
+[49.634s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/package.dsv'
+[49.635s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/package.sh'
+[49.636s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/package.bash'
+[49.636s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/sample_pkg/package.zsh'
+[49.637s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/sample_pkg/share/colcon-core/packages/sample_pkg)
+[49.638s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_msgs' with build type 'ament_cmake'
+[49.639s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rokey-jw/rokeypj_ws/src/turtlebot3_msgs'
+[49.639s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[49.639s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[49.665s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs[0m
+[54.050s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs[0m
+[54.053s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs -- -j6 -l6[0m
+[68.485s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs -- -j6 -l6[0m
+[68.490s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs[0m
+[71.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_msgs)
+[71.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs' for CMake module files
+[71.718s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rokey-jw/rokeypj_ws/build/turtlebot3_msgs[0m
+[71.720s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs' for CMake config files
+[71.724s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_msgs', 'cmake_prefix_path')
+[71.725s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.ps1'
+[71.726s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.dsv'
+[71.728s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.sh'
+[71.730s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/lib'
+[71.730s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_msgs', 'ld_library_path_lib')
+[71.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.ps1'
+[71.732s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.dsv'
+[71.733s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.sh'
+[71.735s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/bin'
+[71.735s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/lib/pkgconfig/turtlebot3_msgs.pc'
+[71.736s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/lib/python3.10/site-packages'
+[71.737s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/bin'
+[71.738s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.ps1'
+[71.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv'
+[71.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.sh'
+[71.743s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.bash'
+[71.744s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.zsh'
+[71.745s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/colcon-core/packages/turtlebot3_msgs)
+[71.748s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot3_msgs)
+[71.749s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs' for CMake module files
+[71.752s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs' for CMake config files
+[71.755s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_msgs', 'cmake_prefix_path')
+[71.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.ps1'
+[71.757s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.dsv'
+[71.759s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.sh'
+[71.761s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/lib'
+[71.761s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot3_msgs', 'ld_library_path_lib')
+[71.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.ps1'
+[71.764s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.dsv'
+[71.765s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.sh'
+[71.766s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/bin'
+[71.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/lib/pkgconfig/turtlebot3_msgs.pc'
+[71.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/lib/python3.10/site-packages'
+[71.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/bin'
+[71.769s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.ps1'
+[71.771s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv'
+[71.773s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.sh'
+[71.774s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.bash'
+[71.776s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.zsh'
+[71.777s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot3_msgs/share/colcon-core/packages/turtlebot3_msgs)
+[71.778s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rokey-jw/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit' with build type 'ament_cmake'
+[71.779s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rokey-jw/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit'
+[71.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[71.780s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[71.813s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit[0m
+[72.196s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rokey-jw/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit[0m
+[72.222s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot_moveit)
+[72.223s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit' for CMake module files
+[72.225s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit' for CMake config files
+[72.226s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/bin'
+[72.226s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/lib/pkgconfig/turtlebot_moveit.pc'
+[72.227s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/lib/python3.10/site-packages'
+[72.228s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/bin'
+[72.229s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/share/turtlebot_moveit/package.ps1'
+[72.230s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/share/turtlebot_moveit/package.dsv'
+[72.232s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/share/turtlebot_moveit/package.sh'
+[72.233s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/share/turtlebot_moveit/package.bash'
+[72.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/share/turtlebot_moveit/package.zsh'
+[72.235s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit/share/colcon-core/packages/turtlebot_moveit)
+[72.247s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[72.247s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[72.248s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[72.248s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[72.267s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[72.268s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[72.268s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[72.315s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[72.316s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rokey-jw/rokeypj_ws/install/local_setup.ps1'
+[72.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/rokey-jw/rokeypj_ws/install/_local_setup_util_ps1.py'
+[72.326s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rokey-jw/rokeypj_ws/install/setup.ps1'
+[72.332s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rokey-jw/rokeypj_ws/install/local_setup.sh'
+[72.334s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/rokey-jw/rokeypj_ws/install/_local_setup_util_sh.py'
+[72.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rokey-jw/rokeypj_ws/install/setup.sh'
+[72.344s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rokey-jw/rokeypj_ws/install/local_setup.bash'
+[72.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rokey-jw/rokeypj_ws/install/setup.bash'
+[72.351s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rokey-jw/rokeypj_ws/install/local_setup.zsh'
+[72.353s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rokey-jw/rokeypj_ws/install/setup.zsh'

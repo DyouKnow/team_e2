@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info
+writing ../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/build
+creating /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/build/lib
+creating /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/build/lib/turtlebot3_autorace_driving
+copying turtlebot3_autorace_driving/control_moving.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/build/lib/turtlebot3_autorace_driving
+copying turtlebot3_autorace_driving/control_lane.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/build/lib/turtlebot3_autorace_driving
+copying turtlebot3_autorace_driving/__init__.py -> /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/build/lib/turtlebot3_autorace_driving
+running install
+running install_lib
+creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/python3.10/site-packages/turtlebot3_autorace_driving
+copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/build/lib/turtlebot3_autorace_driving/control_moving.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/python3.10/site-packages/turtlebot3_autorace_driving
+copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/build/lib/turtlebot3_autorace_driving/control_lane.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/python3.10/site-packages/turtlebot3_autorace_driving
+copying /home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/build/lib/turtlebot3_autorace_driving/__init__.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/python3.10/site-packages/turtlebot3_autorace_driving
+byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/python3.10/site-packages/turtlebot3_autorace_driving/control_moving.py to control_moving.cpython-310.pyc
+byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/python3.10/site-packages/turtlebot3_autorace_driving/control_lane.py to control_lane.cpython-310.pyc
+byte-compiling /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/python3.10/site-packages/turtlebot3_autorace_driving/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/share/ament_index
+creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/share/ament_index/resource_index
+creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/share/ament_index/resource_index/packages
+copying resource/turtlebot3_autorace_driving -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/share/ament_index/resource_index/packages
+copying package.xml -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/share/turtlebot3_autorace_driving
+creating /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/share/turtlebot3_autorace_driving/launch
+copying launch/control_moving.launch.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/share/turtlebot3_autorace_driving/launch
+copying launch/control_lane.launch.py -> /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/share/turtlebot3_autorace_driving/launch
+running install_egg_info
+Copying ../../build/turtlebot3_autorace_driving/turtlebot3_autorace_driving.egg-info to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/python3.10/site-packages/turtlebot3_autorace_driving-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_lane script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/turtlebot3_autorace_driving
+Installing control_moving script to /home/rokey-jw/rokeyracing_ws/install/turtlebot3_autorace_driving/lib/turtlebot3_autorace_driving
+writing list of installed files to '/home/rokey-jw/rokeyracing_ws/build/turtlebot3_autorace_driving/install.log'

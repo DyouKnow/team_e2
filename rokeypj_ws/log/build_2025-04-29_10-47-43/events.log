@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000597] (-) JobUnselected: {'identifier': 'aruco_yolo'}
+[0.001068] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.001326] (-) JobUnselected: {'identifier': 'sample_pkg'}
+[0.001370] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation'}
+[0.001633] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_bringup'}
+[0.001673] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_description'}
+[0.001753] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_hardware'}
+[0.001820] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_moveit_config'}
+[0.001882] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_teleop'}
+[0.001942] (-) JobUnselected: {'identifier': 'turtlebot_cosmo_interface'}
+[0.002006] (turtlebot_moveit) JobQueued: {'identifier': 'turtlebot_moveit', 'dependencies': OrderedDict([('turtlebot_cosmo_interface', '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface')])}
+[0.002082] (turtlebot_moveit) JobStarted: {'identifier': 'turtlebot_moveit'}
+[0.023238] (turtlebot_moveit) JobProgress: {'identifier': 'turtlebot_moveit', 'progress': 'cmake'}
+[0.024198] (turtlebot_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/rokey-jw/rokeypj_ws/src/turtlebot_moveit/turtlebot_moveit', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rokey-jw/rokeypj_ws/install/turtlebot_moveit'], 'cwd': '/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rokey-jw'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rokey-jw'), ('OLDPWD', '/home/rokey-jw'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1381'), ('SYSTEMD_EXEC_PID', '2027'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4239'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rokey-jw/rokeypj_ws/install:/home/rokey-jw/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rokey-jw'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1420824244703'), ('JOURNAL_STREAM', '8:39550'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rokey-jw'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rokey-jw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rokeyjw-desktop:@/tmp/.ICE-unix/1994,unix/rokeyjw-desktop:/tmp/.ICE-unix/1994'), ('INVOCATION_ID', '8f526f352ff7465c9944ab87db8f19e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '50'), ('AMENT_PREFIX_PATH', '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c3d3ed6c-8178-4a13-9520-2ff28984c3f5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface/local/lib/python3.10/dist-packages:/home/rokey-jw/turtlebot3_ws/build/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/rokey-jw/turtlebot3_ws/build/turtlebot3_example:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/rokey-jw/rokeypj_ws/install/turtlebot_cosmo_interface:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_moveit_config:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_bringup:/home/rokey-jw/rokeypj_ws/install/turtlebot3_manipulation_description:/home/rokey-jw/turtlebot3_ws/install/turtlebot3:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_bringup:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_node:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_description:/home/rokey-jw/turtlebot3_ws/install/ld08_driver:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_teleop:/home/rokey-jw/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[0.099490] (-) TimerEvent: {}
+[0.133930] (turtlebot_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199666] (-) TimerEvent: {}
+[0.250943] (turtlebot_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.272469] (turtlebot_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299800] (-) TimerEvent: {}
+[0.400402] (-) TimerEvent: {}
+[0.417010] (turtlebot_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.437850] (turtlebot_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.438777] (turtlebot_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.440150] (turtlebot_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.446986] (turtlebot_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500592] (-) TimerEvent: {}
+[0.601318] (-) TimerEvent: {}
+[0.609993] (turtlebot_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.634226] (turtlebot_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.635061] (turtlebot_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.636663] (turtlebot_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.644461] (turtlebot_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701443] (-) TimerEvent: {}
+[0.802055] (-) TimerEvent: {}
+[0.902741] (-) TimerEvent: {}
+[1.003417] (-) TimerEvent: {}
+[1.022102] (turtlebot_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.103574] (-) TimerEvent: {}
+[1.177206] (turtlebot_moveit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.203681] (-) TimerEvent: {}
+[1.297993] (turtlebot_moveit) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[1.298654] (turtlebot_moveit) StderrLine: {'line': b'  By not providing "Findmoveit_ros_planning_interface.cmake" in\n'}
+[1.298867] (turtlebot_moveit) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[1.299048] (turtlebot_moveit) StderrLine: {'line': b'  configuration file provided by "moveit_ros_planning_interface", but CMake\n'}
+[1.299243] (turtlebot_moveit) StderrLine: {'line': b'  did not find one.\n'}
+[1.299417] (turtlebot_moveit) StderrLine: {'line': b'\n'}
+[1.299578] (turtlebot_moveit) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.299729] (turtlebot_moveit) StderrLine: {'line': b'  "moveit_ros_planning_interface" with any of the following names:\n'}
+[1.299878] (turtlebot_moveit) StderrLine: {'line': b'\n'}
+[1.300022] (turtlebot_moveit) StderrLine: {'line': b'    moveit_ros_planning_interfaceConfig.cmake\n'}
+[1.300171] (turtlebot_moveit) StderrLine: {'line': b'    moveit_ros_planning_interface-config.cmake\n'}
+[1.300315] (turtlebot_moveit) StderrLine: {'line': b'\n'}
+[1.300459] (turtlebot_moveit) StderrLine: {'line': b'  Add the installation prefix of "moveit_ros_planning_interface" to\n'}
+[1.300602] (turtlebot_moveit) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory\n'}
+[1.300746] (turtlebot_moveit) StderrLine: {'line': b'  containing one of the above files.  If "moveit_ros_planning_interface"\n'}
+[1.300889] (turtlebot_moveit) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.301033] (turtlebot_moveit) StderrLine: {'line': b'  installed.\n'}
+[1.301176] (turtlebot_moveit) StderrLine: {'line': b'\n'}
+[1.301319] (turtlebot_moveit) StderrLine: {'line': b'\x1b[0m\n'}
+[1.301487] (turtlebot_moveit) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.301661] (turtlebot_moveit) StdoutLine: {'line': b'See also "/home/rokey-jw/rokeypj_ws/build/turtlebot_moveit/CMakeFiles/CMakeOutput.log".\n'}
+[1.304022] (-) TimerEvent: {}
+[1.308243] (turtlebot_moveit) CommandEnded: {'returncode': 1}
+[1.363057] (turtlebot_moveit) JobEnded: {'identifier': 'turtlebot_moveit', 'rc': 1}
+[1.374406] (-) EventReactorShutdown: {}
