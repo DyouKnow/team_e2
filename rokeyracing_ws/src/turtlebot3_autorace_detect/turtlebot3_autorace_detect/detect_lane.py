@@ -176,6 +176,9 @@ class DetectLane(Node):
         self.mov_avg_left = np.empty((0, 3))
         self.mov_avg_right = np.empty((0, 3))
 
+        #sliding_windown에서의 예외처리 안전장치
+        self.lane_fit_bef = np.zeros(3)
+
     def cbGetDetectLaneParam(self, parameters):
         for param in parameters:
             self.get_logger().info(f'Parameter name: {param.name}')
@@ -262,11 +265,10 @@ class DetectLane(Node):
             np.mean(self.mov_avg_right[::-1][:, 2][0:MOV_AVG_LENGTH])
             ])
 
-        if self.mov_avg_left.shape[0] > 1000:
-            self.mov_avg_left = self.mov_avg_left[0:MOV_AVG_LENGTH]
-
-        if self.mov_avg_right.shape[0] > 1000:
-            self.mov_avg_right = self.mov_avg_right[0:MOV_AVG_LENGTH]
+        if self.mov_avg_left.shape[0] > MOV_AVG_LENGTH:
+            self.mov_avg_left = self.mov_avg_left[-MOV_AVG_LENGTH:]
+        if self.mov_avg_right.shape[0] > MOV_AVG_LENGTH:
+            self.mov_avg_right = self.mov_avg_right[-MOV_AVG_LENGTH:]
 
         self.make_lane(cv_image, white_fraction, yellow_fraction)
 
